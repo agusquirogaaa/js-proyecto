@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("fondo.jpg");
+    background-image: no-repeat;
+    height: 100vh;
+}
+
+.contenedor-general{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    border: 10px solid red;
+}
+
+.card-body{
+    height: 60px;
+    width: 700px;
+    background-image: linear-gradient(to right top, #1f1f1f, #191919, #131313, #0b0b0b, #000000);
+    text-align: center;
+    border: none;
+    padding-bottom: 10px;
+    
+}
+
+
+.caja {
+    background-image: linear-gradient(to right top, #1f1f1f, #191919, #131313, #0b0b0b, #000000);
+    width: 700px;
+    padding:30px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-items:center;
+    gap:30px;
+    border-radius: 2%;
+
+}
+
+#textopremier {
+    color:white;
+}
+
+.card-title {
+    color:whitesmoke;
+}
+
